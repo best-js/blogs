@@ -233,7 +233,7 @@ function listId__(value,oldValue) {
   }
   
   var parentWd = this.state.parentWidth, sRepoBase = undefined;
-  var ctxWd = parentWd >= 500? 500: (parentWd > 300? 0.9: 270);
+  var ctxWd = parentWd >= 480? 480: (parentWd > 300? 0.9: 270);
   var bList = this.state.data || [];
   var bEle = bList.map( function(item) {
     var sKey = item.keyId, sThumb = item.thumb, sTitle = item.title || sKey;
@@ -249,7 +249,7 @@ function listId__(value,oldValue) {
       else sThumb = 'lib/res/slideshow.jpg'; // urlBase is ''
     }
     
-    var jsonXImg = ['P',{key:'thumb',klass:'self_center-start-end-stretch-default',width:150,height:120}];
+    var jsonXImg = ['P',{key:'thumb',klass:'start-end-stretch-default-self_center',width:150,height:120}];
     jsonXImg = [jsonXImg,['Img', {key:'img',name:sKey,src:sThumb,
       style:{cursor:'pointer',width:'100%',height:'100%'},
       $onClick: tryOpenDoc,
@@ -281,16 +281,16 @@ function listId__(value,oldValue) {
     bInfoX.push(['Span',{key:'modi','html.':docTimeStr(new Date(item.modify_at)),title:item.path.split('/').pop(),style:{cursor:'default'}}]);
     jsonXCtx.push(bInfoX);
     
-    var jsonX = [['Panel',{key:sKey,width:ctxWd,height:null,padding:[6,0,6,0]}],jsonXImg,jsonXCtx];
+    var jsonX = [['Panel',{key:sKey,width:ctxWd,height:null,padding:[6,0,6,0],borderWidth:[1,0,0,0],style:{borderColor:'#eee'}}],jsonXImg,jsonXCtx];
     return utils.loadElement(jsonX);
   });
   
-  var numOfRow = parentWd >= 1000? Math.floor(parentWd/500): 1;
+  var numOfRow = parentWd >= 480? Math.floor(parentWd/480): 1;
   if (numOfRow >= 2) {
     var iMod = bEle.length % numOfRow;
     while (iMod > 0) {
       iMod -= 1;
-      bEle.push(utils.loadElement(['Panel',{key:'_pad'+iMod,width:ctxWd,height:120}]));
+      bEle.push(utils.loadElement(['Panel',{key:'_pad'+iMod,width:ctxWd,height:120,borderWidth:[1,0,0,0],style:{borderColor:'#eee'}}]));
     }
   }
   utils.setChildren(this,bEle);
@@ -467,8 +467,10 @@ function repoId__(value,oldValue) {
       });
     }
     else if (value == 2) {
-      onRepoChange(); // must have one repo (root repo)
-      tryImportRepo(bDocRepos_[0][0].imported_repos || []);
+      setTimeout( function() {
+        onRepoChange(); // must have one repo (root repo)
+        tryImportRepo(bDocRepos_[0][0].imported_repos || []);
+      },100);
     }
     else if (value == 0)
       repoSelComp_ = null;
