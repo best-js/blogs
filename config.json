@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1508487582438,
+  "last_modify": 1508493708770,
   "user_name": "rewgt",
   "imported_repos": [
     [
@@ -16,9 +16,10 @@
       "tag": ".其它",
       "markdown": true,
       "title": "博客开通说明",
-      "modify_at": 1508487582438,
+      "modify_at": 1508493708770,
       "create_at": 1508487514490,
-      "desc": "开过太多博客了，数了数有七、八个了，但都不长命。<br>Content of the blog..."
+      "desc": "开过太多博客了，刚数了数有十多个。CSDN 的，网易的，搭服务器自建的，好多，近期开的有 Segmentfault、掘金。不反思一下，都不知道自己这么能折腾！",
+      "thumb": "md/res/D171020-01/thumbnail.jpg"
     }
   ]
 }

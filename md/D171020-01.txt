@@ -3,11 +3,33 @@
 
 &nbsp;
 
-开过太多博客了，数了数有七、八个了，但都不长命。
+开过太多博客了，刚数了数有十多个。CSDN 的，网易的，搭服务器自建的，好多，近期开的有 Segmentfault、掘金。不反思一下，都不知道自己这么能折腾！
 
 &nbsp;
 
-Content of the blog...
+**以前写的都是技术博客，估计以后也是**。可能是性格使然，我个人不喜欢晒生活，没什么文学功底，写不好文章就干脆少写。至于写技术博客是迫不得己，干完点事情老想总结一下，另外，亲手做东西要推出去，得宣传。以前写过这么多博客基本是宣传需要，在不同阵地发声，为获得更多曝光机会。
+
+这回开博是认真的，请大家监督我，博客网址 https://best-js.github.io/blogs/ 将长存活。best-js 是好名，对不对？不盘活这资产感觉对不起 github &nbsp; :)
+
+讲一下原因：
+
+1. 这个博客系统是自己一手开发的，在 shadow-widget 平台之上搭建，从 [本 blogs 项目](https://github.com/best-js/blogs) 延伸出去，我还会试验许多新颖的东西。没准今后我的博文中还有 AI 服务呢！
+
+2. 我发现技术人开博客的正确姿势是：设一个总仓库，然后为宣传目的在多处建子仓。best-js/blogs 就是我的总仓，子仓不见得持续有内容，总仓不定期有新文章推出的。在软件行业干 20 年了，只要不死，我估计还得干 20 年，不经常写写东西，老年痴呆会过早降临。
+
+3. 回顾一下十多年来我写过的文章，沉甸下来现在觉得还有用的，却没几篇。生命美好，请远离博客，**以后不写垃圾文章了，要写就把它写成精品**。
+
+本博客开头几篇，我会从以前写过的文章中，挑一些还看得上眼的，也没过时的，平移过来，既然要做精品仓库，以前的精品还是保留一下为好。之前的垃圾权当不是我写的，当然不是我写的，以前写文章只署网名，从现在起，由程强扮演的程强开始发声了。
+
+祝福我吧，本文完，精品系列刚开始！
+
+&nbsp;
+
+—— 写于 2017 年 10 月 20 号，一个美好的周末。
+
+&nbsp;
 <!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
-<div $=ScenePage key="auto0"></div>
-<div $=ScenePage key="auto1" no-show="1"></div>
+<div $=ScenePage key='auto0'></div>
+<div $=ScenePage key='auto1' no-show='1'>
+  <div $=".pinp.doc_info.thumb" no-show='' left='{-149}' top='{-64}' sty__='{{"background":"url(md/res/D171020-01/thumbnail.jpg) no-repeat center","backgroundSize":"100% 100%"}}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+</div>
