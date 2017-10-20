@@ -1,9 +1,24 @@
 {
   "version": "1.0",
-  "last_modify": 0,
+  "last_modify": 1508487582438,
   "user_name": "rewgt",
-  "imported_repos": [["https://pinp.github.io/blogs/","Online help"]],
+  "imported_repos": [
+    [
+      "https://pinp.github.io/blogs/",
+      "Online help"
+    ]
+  ],
   "repos_name": "blogs",
   "repos_desc": "Blog",
-  "doc_list": []
+  "doc_list": [
+    {
+      "path": "md/D171020-01.txt",
+      "tag": ".其它",
+      "markdown": true,
+      "title": "博客开通说明",
+      "modify_at": 1508487582438,
+      "create_at": 1508487514490,
+      "desc": "开过太多博客了，数了数有七、八个了，但都不长命。<br>Content of the blog..."
+    }
+  ]
 }

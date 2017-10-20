@@ -1,0 +1,13 @@
+博客开通说明
+----------
+
+&nbsp;
+
+开过太多博客了，数了数有七、八个了，但都不长命。
+
+&nbsp;
+
+Content of the blog...
+<!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
+<div $=ScenePage key="auto0"></div>
+<div $=ScenePage key="auto1" no-show="1"></div>
