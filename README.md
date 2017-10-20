@@ -1,4 +1,4 @@
-best-js 博客
+我的博客
 -----------
 
-[点击进入博客](https://best-js.github.io/blogs/)
+[点击进入我的博客](https://best-js.github.io/blogs/)
