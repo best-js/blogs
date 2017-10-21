@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1508493708770,
+  "last_modify": 1508588692833,
   "user_name": "rewgt",
   "imported_repos": [
     [
@@ -11,6 +11,26 @@
   "repos_name": "blogs",
   "repos_desc": "Blog",
   "doc_list": [
+    {
+      "path": "md/D171021-01.txt",
+      "tag": ".其它",
+      "markdown": true,
+      "title": "为了忘却的记念 —— 当年在白盒测试领域做过的工作",
+      "modify_at": 1508588692833,
+      "create_at": 1508576984676,
+      "desc": "我有过一段不成功的创业经历，05 年从华为离职后，我开过一家公司，主做 C/C++ 白盒测试工具，惨淡经营了 5 年，最后关门了事。",
+      "thumb": "md/res/D171021-01/inspector.gif"
+    },
+    {
+      "path": "md/D171020-02.txt",
+      "tag": ".编程语言",
+      "markdown": true,
+      "title": "程序语言的自我意识与仿他意识",
+      "modify_at": 1508509825693,
+      "create_at": 1508505341197,
+      "desc": "本文写于 2006 年 4 月，网上流传很广，探讨了编程语言某些本质特性。虽然十多年过去了，谈论的技术没有过时，重读一遍仍有不一样的感受。",
+      "thumb": "md/res/D171020-02/language.jpg"
+    },
     {
       "path": "md/D171020-01.txt",
       "tag": ".其它",

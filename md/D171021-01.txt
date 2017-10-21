@@ -1,0 +1,33 @@
+为了忘却的记念 —— 当年在白盒测试领域做过的工作
+----------
+
+&nbsp;
+
+我有过一段不成功的创业经历，05 年从华为离职后，我开过一家公司，主做 C/C++ 白盒测试工具，惨淡经营了 5 年，最后关门了事。
+
+现在上网搜索一下，还能找到当年一些工作印迹，不过，主打产品没地方可下载了。感觉遗憾之余，也趁这次重整博客的机会，把当年免费放给大家使用的 VcSmith 工具，在硬盘的角落边找回来，上传到在 github 新建的项目：`cse-soft/vcsmith`。原先供大家下载的东西托管在 Google Code 上，Google Code 后来关停了，我也没做迁移，那时公司已停运好几年了。
+
+当年做的东西还是很有价值的，申请过 2 个发明专利，只是业务面太窄，而且与 Visual Studio 捆绑太深，陷入一个悖论，需求最强烈的是板级实时系统，没什么办法去支持，桌面系统的 C/C++ 支持很好，但客户不 Care。创业前 3 年我们还努力想把事业做成，之后发现再坚持已无意义，便不再花精力，公司仍空转了几年，偶尔还接几单生意。 
+
+&nbsp;
+
+就对目前贡献而言，那几年创业还剩下面几项价值：
+
+1) 沉甸出一个共享软件：VcSmith，是免费的，若有需要，请到 [项目主页](https://github.com/cse-soft/vcsmith) 下载。另有几篇文章可供参考，现附上链接，均为 PDF 格式：
+
+1. [第 4 代白盒测试方法介绍 —— 理论篇](https://cse-soft.github.io/vcsmith/doc/4GWM_theory.pdf)
+2. [第 4 代白盒测试方法介绍 —— VcTester 实践篇](https://cse-soft.github.io/vcsmith/doc/4GWM_practice.pdf)
+3. [第 4 代白盒测试方法通俗释义](https://cse-soft.github.io/vcsmith/doc/4GWM_explain.pdf)
+
+2) 做白盒测试工具一个重点是开发 CSE 脚本语言，CSE 在 VcSmith/VcTester 系列发展到 v2.2 版本。
+
+这门语言有不少创新，即使与现在几个主流编程语言相比，某些特性还挺先进。关掉公司后，我仍继续开发 CSE，又耗上数年，那纯粹因为兴趣做事。也有试验性产品出来，弄了个与 Qt 系统深度融合的系统，用脚本实施开发、也用脚本调试、测试、支持覆盖率，最后还能转译成 C++ 代码用于产品发布。终归离商业变现远了些，没在市场上推，这事在 3 年前挂起来了。今后有机会，我仍可能继续做 CSE V3，就个人兴趣与改不掉的贱性而论，这是大概率事件。
+
+近几年我开发了一个 shadow-widget 前端框架系统，要内嵌一个 MJI 脚本解释器，花半天就做好了，之前多年在语言领域的投入，也就转化成比别人多这么一丁儿的优势。
+
+&nbsp;
+<!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
+<div $=ScenePage key='auto0'></div>
+<div $=ScenePage key='auto1' no-show='1'>
+  <div $=".pinp.doc_info.thumb" no-show='' left='{-140}' top='{-104}' sty__='{{"background":"url(md/res/D171021-01/inspector.gif) no-repeat center","backgroundSize":"100% 100%"}}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+</div>
