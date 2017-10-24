@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1508588692833,
+  "last_modify": 1508806781706,
   "user_name": "rewgt",
   "imported_repos": [
     [
@@ -12,11 +12,31 @@
   "repos_desc": "Blog",
   "doc_list": [
     {
+      "path": "md/D171023-02.txt",
+      "tag": ".前端",
+      "markdown": true,
+      "title": "前端 MVVM 与 FRP 的升阶实践：ReRest 可视化编程",
+      "modify_at": 1508725925529,
+      "create_at": 1508718998133,
+      "thumb": "md/res/D171023-02/thumbnail.jpg",
+      "desc": "ReRest 是前端开发领域新兴的方法论体系，它继承了 MVVM 与 FRP 编程理念，在技术上有不少创新。本文从专利稿修改而来，主要介绍 ReRest 原理与若干实践经验。"
+    },
+    {
+      "path": "md/D171023-01.txt",
+      "tag": ".其它",
+      "markdown": true,
+      "title": "找个伙伴做件牛 B 的事",
+      "modify_at": 1508806781706,
+      "create_at": 1508717385311,
+      "desc": "我经常反思自己手头在做的事有没价值，新起一个点子，往往要搁上半年，想清楚后再动手。二年前（指 15 年一季度）经历了一段迷茫期，然后决定启动一个工作方向。我找回以前写的相关文章，再补充当下见解，于是有了这篇。",
+      "thumb": "md/res/D171023-01/niubility.jpeg"
+    },
+    {
       "path": "md/D171021-01.txt",
       "tag": ".其它",
       "markdown": true,
       "title": "为了忘却的记念 —— 当年在白盒测试领域做过的工作",
-      "modify_at": 1508588692833,
+      "modify_at": 1508717316393,
       "create_at": 1508576984676,
       "desc": "我有过一段不成功的创业经历，05 年从华为离职后，我开过一家公司，主做 C/C++ 白盒测试工具，惨淡经营了 5 年，最后关门了事。",
       "thumb": "md/res/D171021-01/inspector.gif"
