@@ -131,6 +131,21 @@ Rest 可视化编程的文章在 SegmentFault.com 网站发布，一周了，有
 &nbsp;
 
 &nbsp;
+
+**17 年 11 月 3 日：达成路标 2**
+
+------------------
+
+**路标内容**： 完成 pinp-blog 项目开发，正式推荐用户使用
+
+**达成日期**：2017/11/03
+
+**达成标志**：
+
+
+&nbsp;
+
+&nbsp;
 <!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
 <div $=ScenePage key='auto0'></div>
 <div $=ScenePage key='auto1' no-show='1'>
