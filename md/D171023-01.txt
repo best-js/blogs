@@ -142,8 +142,8 @@ Rest 可视化编程的文章在 SegmentFault.com 网站发布，一周了，有
 
 **达成标志**：
 
-1. 主体功能在半年前就已完成，在 `rewgt/blogs, rewgt/product-blogs, best-js/blogs` 多个实用项目完成验证。
-2. 最近增加了针对 github.com 的 web hook 触发器，博客的评论功能也完成了。
+1. 主体功能在半年前就完成，已在 `rewgt/blogs, rewgt/product-blogs, best-js/blogs` 等多个实际博客站点完成验证。
+2. 最近针对 github.com 托管增加了 WebHook 触发器，博客的评论功能也完成了。
 
 &nbsp;
 
