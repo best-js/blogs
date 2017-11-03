@@ -50,7 +50,7 @@ git push origin gh-pages
 
 本博客系统支持评论功能，该功能借助 github 的 Issues 功能实现。从 `rewgt/blogs` 把库 fork 过来时，系统缺省关闭了 Issues 功能，您应到自己的 blogs 库主页，打开 `Settings` 配置页，在 `Options` 分类下，把 "Issues" 的 Features 项选上。
 
-![enable issue](output/enable_issue.png)
+![enable issue](output/enable_issue.jpg)
 
 另外，还得在 `Webhooks` 分类下，点 `Add webhook` 按钮，增加一条指向如下 URL 的记录。
 
@@ -58,7 +58,7 @@ git push origin gh-pages
 https://www.pinp.io/git-blog/comments/zh
 ``` 
 
-![config webhook](output/webhook.png)
+![config webhook](output/webhook.jpg)
 
 说明：
 1. 配置 webhook 为了让你的博客每次 push 后，`www.pinp.io` 后台能为您新写的文章自动创建一条评论用 issue
