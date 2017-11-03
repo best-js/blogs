@@ -45,28 +45,27 @@ git push origin gh-pages
 注意，要提交到 github 的 `gh-pages` 分支，这样才支持在 `https://<your_account>.github.io/blogs/` 打开您的博客站点。
 
 
+## 让博客支持评论
+
+本博客系统支持评论功能，该功能借助 github 的 Issues 功能实现。从 `rewgt/blogs` 把库 fork 过来时，系统缺省关闭了 Issues 功能，您应到自己的 blogs 库主页，打开 `Settings` 配置页，在 `Options` 分类下，把 "Issues" 的 Features 项选上。
+
+![enable issue](output/enable_issue)
+
+另外，还得在 `Webhooks` 分类下，点 `Add webhook` 按钮，增加一条指向如下 URL 的记录。
+
+``` html
+https://www.pinp.io/git-blog/comments/zh
+``` 
+
+![config webhook](output/webhook.png)
+
+说明：
+1. 配置 webhook 为了让你的博客每次 push 后，都自动为新写的文章建立一条对应的 issue
+2. 如果您用英文撰写博客，应换用这个 URL：`https://www.pinp.io/git-blog/comments/en`
+
 ## 编写批处理，简化版本提交操作
 
-经常写博客的朋友，会经常要在命令行键入多条命令才能把博客发布到 github，我们不妨编写一个批处理文件，让操作简化。比如，在 Mac 机器，可编写一个名为 `macpush` 的批处理文件，脚本如下：
-
-``` bash
-#!/bin/bash
-
-echo --- git status
-git status
-
-echo --- git add .
-git add .
-
-echo --- git commit -m $(date +%y-%m-%d)
-git commit -m $(date +%y-%m-%d)
-
-echo --- git push origin gh-pages
-git push origin gh-pages
-```
-
-每次提交版本，只需运行 `./macpush` 命令即可。其它平台，比如 Windows，如何编写批处理文件，请以此类推。
-
+经常写博客的朋友，会经常要在命令行键入多条命令才能把博客发布到 github。为了让操作简化，我们提供了 `macpush` 与 `winpush` 两个批处理文件，前者用于在 Mac 机器中，只需运行 `./macpush` 即发布版本，后者用于在 Windows 机器一键发布。
 
 ## 使用限制
 
