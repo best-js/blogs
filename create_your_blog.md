@@ -61,14 +61,14 @@ https://www.pinp.io/git-blog/comments/zh
 ![config webhook](output/webhook.png)
 
 说明：
-1. 配置 webhook 为了让你的博客每次 push 后，都自动为新写的文章建立一条对应的 issue
-2. 如果您用英文撰写博客，应换用这个 URL：`https://www.pinp.io/git-blog/comments/en`
+1. 配置 webhook 为了让你的博客每次 push 后，`www.pinp.io` 后台能为您新写的文章自动创建一条评论用 issue
+2. 如果您用英文撰写博客，可换用这个 URL：`https://www.pinp.io/git-blog/comments/en`
 
 &nbsp;
 
-## 编写批处理，简化版本提交操作
+## 使用批处理，简化版本提交操作
 
-经常写博客的朋友，会经常要在命令行键入多条命令才能把博客发布到 github。为了让操作简化，我们提供了 `macpush` 与 `winpush` 两个批处理文件，前者用于在 Mac 机器中，只需运行 `./macpush` 即发布版本，后者用于在 Windows 机器一键发布。
+经常写博客的朋友，会经常要在命令行键入多条命令（如 `git add, git commit, git push`）才能把博客发布到 github。为了让操作简化，我们提供了 `macpush` 与 `winpush` 两个批处理文件，前者用于在 Mac 机器中，只需运行 `./macpush` 即实现版本发布，后者用于在 Windows 机器一键发布。
 
 &nbsp;
 
