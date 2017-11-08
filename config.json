@@ -12,24 +12,6 @@
   "repos_desc": "Blog",
   "doc_list": [
     {
-      "path": "md/D171108-02.txt",
-      "tag": "",
-      "markdown": true,
-      "title": "另一个测试：测试2",
-      "modify_at": 1510112534081,
-      "create_at": 1510112243620,
-      "desc": "by xxx at yy/mm/dd<br>Abstract of the blog..."
-    },
-    {
-      "path": "md/D171108-01.txt",
-      "tag": "",
-      "markdown": true,
-      "title": "本文用于测试",
-      "modify_at": 1510110818285,
-      "create_at": 1510109136550,
-      "desc": "by xxx at yy/mm/dd<br>Abstract of the blog..."
-    },
-    {
       "path": "md/D171023-02.txt",
       "tag": ".前端",
       "markdown": true,
