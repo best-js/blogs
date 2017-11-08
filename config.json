@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1510110818285,
+  "last_modify": 1510112263387,
   "user_name": "rewgt",
   "imported_repos": [
     [
@@ -11,6 +11,15 @@
   "repos_name": "blogs",
   "repos_desc": "Blog",
   "doc_list": [
+    {
+      "path": "md/D171108-02.txt",
+      "tag": "",
+      "markdown": true,
+      "title": "另一个测试",
+      "modify_at": 1510112263387,
+      "create_at": 1510112243620,
+      "desc": "by xxx at yy/mm/dd<br>Abstract of the blog..."
+    },
     {
       "path": "md/D171108-01.txt",
       "tag": "",
