@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1510112534081,
+  "last_modify": 1515569465136,
   "user_name": "rewgt",
   "imported_repos": [
     [
@@ -11,6 +11,16 @@
   "repos_name": "blogs",
   "repos_desc": "Blog",
   "doc_list": [
+    {
+      "path": "md/D180108-01.txt",
+      "tag": ".区块链",
+      "markdown": true,
+      "title": "FAB 技术分析之：区块链在通用领域如何落地",
+      "modify_at": 1515569465136,
+      "create_at": 1515397356356,
+      "desc": "上周末我研究了一下发链（Fast Access Blockchain, FAB），发现这个区块链很符合我的预期，计划写一篇技术分析文章，本文是前半部分。",
+      "thumb": "md/res/D180108-01/fab.jpg"
+    },
     {
       "path": "md/D171023-02.txt",
       "tag": ".前端",
